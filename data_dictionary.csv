@@ -1,0 +1,12 @@
+Column,Definition,Data type
+CustomerID,"Unique customer identifier; retain as text, not a numeric measure.",string
+Gender,Customer gender category as supplied.,string
+Age,Customer age in years.,int64
+TenureMonths,Number of months the customer has been subscribed.,int64
+SubscriptionType,"Subscription tier (Basic, Pro, Enterprise).",string
+MonthlyCharges,Monthly customer charge.,float64
+TotalCharges,Total charges recorded for the customer.,float64
+ContractType,Contract duration category.,string
+SupportTickets,Number of support tickets recorded.,int64
+PaymentMethod,Payment method category.,string
+Churn,Whether the customer churned (Yes/No).,string
